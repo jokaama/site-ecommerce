@@ -1,0 +1,181 @@
+@media only screen and (max-width: 640px) {
+
+    * {
+        position: static;
+    }
+
+    body {
+        max-width: 640px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    section {
+        width: 100% !important;
+        position: static !important;
+    }
+
+    nav {
+        width: 640px;
+        padding: 6px 10px;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header-bg {
+        width: 100%;
+        background-image: none;
+        height: auto;
+    }
+
+    .header-front {
+        height: 303px;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        box-shadow: none;
+        position: static;
+    }
+
+    .header-front p {
+        font-size: 15px;
+        top: 45px;
+    }
+
+    #Collection {
+        font-size: 25px;
+        margin-right: 75px;
+        top: 110px;
+    }
+
+    #Janowski {
+        top: 105px;
+        font-size: 40px;
+        margin-right: 85px;
+    }
+
+    .presentation {
+        display: none;
+    }
+
+    .concept {
+        margin-bottom: 20px;
+    }
+
+    .text-concept {
+        max-width: 100%;
+        width: 100%;
+        position: static;
+    }
+
+    .concept > img {
+        position: static;
+        display: block;
+        margin : auto;
+        width: 80%;
+    }
+
+    .concept {
+        max-height: inherit;
+    }
+
+    .concept h1 {
+        position: static;
+        margin-left: 20px;
+    }
+
+    .adv {
+        position: static;
+        height: auto;
+    }
+
+    .advantages {
+        position: static;
+        width: 100%;
+        margin: 30px 0 30px 10px;
+        top: 30px;
+    }
+
+    .advantages > .text-adv {
+        margin:0 20px;
+    }
+
+    #first-advantages {
+        margin: 0 0 30px 20px;
+    }
+
+    #first-advantages > .description {
+        margin: 0 20px;
+    }
+
+    .promo {
+        height: 110px;
+    }
+
+    .advantages img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .shop {
+        margin: 0;
+    }
+
+    .shop > .card {
+        margin: 10px 0;
+        height: 450px;
+    }
+
+    .btn-fav {
+        position:static !important;
+    }
+
+    .btn {
+        position:static !important;
+    }
+
+    .product-actions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    footer > div {
+        margin: 30px 0;
+    }
+
+    footer > div:after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 20px;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    footer > div:last-child:after {
+        border-bottom: none;
+    }
+
+}
